@@ -13,7 +13,9 @@ class WebSpider(scrapy.Spider):
         content = {
             'url': response.url,
             'title': response.css('title::text').get(),
-            'body': response.css('p::text').getall()+ response.css('h1::text').getall() + response.css('h2::text').getall() + response.css('h3::text').getall() + response.css('h4::text').getall() +
+            'body': response.css('p::text').getall()+ response.css('h1::text').getall() + response.css('h2::text').getall() +
+            response.css('h3::text').getall() +
+            response.css('h4::text').getall() +
             response.css('h5::text').getall() +
             response.css('h6::text').getall() +
             response.css('li::text').getall() +  # List items
