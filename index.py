@@ -95,7 +95,6 @@ documents = read_html_files(website_content_directory)
 # Create the inverted index using block-based processing
 inverted_index = process_batch_and_invert(documents, batch_size, output_dir)
 
-# Move the inverted index file to the index directory
 # Store the inverted index in the output directory
 os.makedirs(output_dir, exist_ok=True)
 index_file = os.path.join(output_dir, "inverted_index.pkl")
