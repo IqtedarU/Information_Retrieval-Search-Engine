@@ -1,10 +1,7 @@
 import math
 import pickle
-from collections import defaultdict
-
 from nltk import word_tokenize, PorterStemmer
 from nltk.corpus import stopwords
-from sklearn.metrics.pairwise import cosine_similarity
 
 def preprocess(text):
     tokens = word_tokenize(text.lower())  # Tokenization and lowercase
@@ -66,21 +63,3 @@ def search_query(query, inverted_index):
     sorted_documents = sorted(document_scores.items(), key=lambda x: x[1], reverse=True)
 
     return [(doc_id, document_titles[doc_id], score) for doc_id, score in sorted_documents]
-
-"""
-# Load the inverted index
-index_file = "C:/index/inverted_index.pkl"
-inverted_index = load_index(index_file)
-
-# Define the query
-query = "ice"
-
-# Search the query
-search_results = search_query(query, inverted_index)
-
-# Print the document titles and their corresponding cosine similarity scores
-print("Search results:")
-for doc_id, title, score in search_results:
-    print(f"Document {doc_id + 1} Title {title}: Cosine Similarity Score = {score}")
-"""
-
