@@ -3,7 +3,7 @@
 
 ### The only sources used was Chatgpt, and prior learned knowledge in class. Chatgpt is used in code and homework assignments. ChatGPT is used more in the flask app, and html files, as it is more unfamiliar to me, but all IR-related is checked to make sure it matches correct logic ChatGPT is also used to explain parts of the documentation, where I read over to make sure it makes sense to the user. Since this is more of a logic, step-based paper, and not a personal paper, using ChatGPT helps convey steps better
 
-### The Paper itself is very long due to screenshots of code. I have attached test case used in the paper in case you want to see if you can replicate results when launching the flask app.
+### The Paper itself is very long due to screenshots of code. I have attached test case used in the paper in case you want to see if you can replicate results when launching the flask app. The scraped results are big so they are included in a google drive link here: https://drive.google.com/drive/folders/1WOqQxmhASbblfTxOrMaO3gbYipv8N58F?usp=drive_link
 
 ## Operation:
 The operation of the system involves a sequential execution of steps to achieve web crawling, indexing, querying, and information retrieval.
