@@ -5,6 +5,8 @@
 
 ### The Paper itself is very long due to screenshots of code. I have attached test case used in the paper in case you want to see if you can replicate results when launching the flask app. The scraped results are big so they are included in a google drive link here: https://drive.google.com/drive/folders/1WOqQxmhASbblfTxOrMaO3gbYipv8N58F?usp=drive_link
 
+### All of this was done in pycharm, and ran in order according to operation. then flask link is clicked to run
+
 ## Operation:
 The operation of the system involves a sequential execution of steps to achieve web crawling, indexing, querying, and information retrieval.
 ### Web Scraping:
