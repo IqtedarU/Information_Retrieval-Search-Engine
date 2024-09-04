@@ -30,11 +30,13 @@ Users can input search queries through the interface, which triggers the retriev
 Retrieved documents are ranked based on cosine similarity scores, and the top results are displayed to users. Another area of improvement is query correction since this currently looks for exact words.
 
 Valid Results:
+
 ![image](https://github.com/user-attachments/assets/7bb81b6b-38e9-4bb9-91f9-f7d0f5dee357)
 ![image](https://github.com/user-attachments/assets/6b1f6f8a-2fed-4b63-a513-e7272321d727)
 
 
 Unvalid results:
+
 ![image](https://github.com/user-attachments/assets/3bbd9166-1074-4d4c-a013-6975c0970def)
 
 
