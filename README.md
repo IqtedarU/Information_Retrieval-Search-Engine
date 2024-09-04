@@ -18,7 +18,8 @@ Run the web spider to initiate the crawling process. The spider navigates throug
 Extracted data, including the URL, title, and content of each web page, is saved to the specified directory as HTML files. This is stored as blocks that can be used to be more eddicient and can possibly be parallel processed. the scraping process could also be done using the library scrapy.
 It should look like this. Error cases should be looked into and web_scraper logic can be modified to get more information as html is not always the same.
 
-![image](https://github.com/user-attachments/assets/7ea943e3-db06-4030-b89a-5c01a66d19de)
+![image](https://github.com/user-attachments/assets/e4ea2d97-7249-46db-87d2-7d6ce6562d63)
+
 ### Indexing:
 After web scraping is complete, preprocess the collected HTML content by tokenizing, removing stop words, and stemming the text.
 Build an inverted index using the TF-IDF algorithm, which maps terms to the documents in which they appear and their corresponding TF-IDF scores.
@@ -29,12 +30,13 @@ Users can input search queries through the interface, which triggers the retriev
 Retrieved documents are ranked based on cosine similarity scores, and the top results are displayed to users. Another area of improvement is query correction since this currently looks for exact words.
 
 Valid Results:
-![image](https://github.com/user-attachments/assets/e155ceda-9f75-4455-a8f6-f076da2aea78)
-![image](https://github.com/user-attachments/assets/c7bd5b8c-a7ea-4d8b-a09d-4d3fc8220169)
-![image](https://github.com/user-attachments/assets/53244ade-d014-4910-8378-4e57460a9ae1)
+![image](https://github.com/user-attachments/assets/7bb81b6b-38e9-4bb9-91f9-f7d0f5dee357)
+![image](https://github.com/user-attachments/assets/6b1f6f8a-2fed-4b63-a513-e7272321d727)
+
 
 Unvalid results:
-![image](https://github.com/user-attachments/assets/bd29b348-739c-42fa-bdfd-fea965bf3502)
+![image](https://github.com/user-attachments/assets/3bbd9166-1074-4d4c-a013-6975c0970def)
+
 
 clicking the link in valid pages goes to the wikipedia page
 
